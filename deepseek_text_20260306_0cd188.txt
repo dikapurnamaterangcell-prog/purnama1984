@@ -1,0 +1,28 @@
+app/
+├── src/main/java/com/youtubeproxy/
+│   ├── data/
+│   │   ├── api/
+│   │   │   ├── PipedApiService.kt
+│   │   │   └── models/
+│   │   │       ├── StreamsResponse.kt
+│   │   │       └── VideoStream.kt
+│   │   ├── repository/
+│   │   │   └── VideoRepository.kt
+│   │   └── preload/
+│   │       └── VideoPreloadManager.kt
+│   ├── domain/
+│   │   ├── model/
+│   │   │   └── VideoItem.kt
+│   │   └── usercase/
+│   │       └── GetVideoStreamUseCase.kt
+│   ├── presentation/
+│   │   ├── MainActivity.kt
+│   │   ├── PlayerActivity.kt
+│   │   ├── adapter/
+│   │   │   └── VideoAdapter.kt
+│   │   └── viewmodel/
+│   │       └── PlayerViewModel.kt
+│   └── utils/
+│       └── Constants.kt
+└── src/main/res/
+    └── ...
